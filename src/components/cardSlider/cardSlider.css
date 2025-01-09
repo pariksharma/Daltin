@@ -1,0 +1,44 @@
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Add gradient border to card */
+/* Add gradient border to the card */
+/* Add gradient border to the card */
+.custom-card {
+  border: 2px solid transparent;
+  border-radius: 20px; /* Smooth rounded corners */
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #6c63ff, #a855f7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 15px;
+  transition: transform 0.3s ease; /* Hover effect */
+}
+
+.custom-card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+/* Add gradient border to the image inside the card */
+.custom-image {
+  border: 2px solid transparent;
+  border-radius: 15px;
+  /* background-image: linear-gradient(white, white),
+    linear-gradient(to right, #6c63ff, #a855f7); */
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+/* Text alignment and spacing */
+.card-title {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+

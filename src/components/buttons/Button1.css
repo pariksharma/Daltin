@@ -1,0 +1,14 @@
+.gradiantButton{ 
+    background: linear-gradient(315deg, #EB57E3 0%, #EB9757 100%);
+    /* width: Fixed (194px)px;
+    height: Fixed (46px)px; */
+    top: 13px;
+    left: 1556px;
+    padding: 8px 16px 8px 16px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    color: white;
+    cursor: pointer;
+}
+
